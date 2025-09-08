@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Markdown Viewer</title>
+  <link rel="icon" type="image/png" href="favicon.png?v=2">
+  <link rel="stylesheet" href="library/github-dark.min.css">
+</head>
+
+<body>
+  <header>
+    <div>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul>
+      <li><a href="#home" class="showHome">Home</a></li>
+      <li><a href="#viewer" class="edit">Md viewer</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </header>
+
+  <section id="home">
+    <div class="content">
+                    
+      <div class="dir html">              
+        <img src="file.svg" alt="">
+        <p>Html master kors</p>
+      </div>
+      <div class="files">
+          <div class="file" file_name="Part_(1)">
+            <a href="#">
+              <img src="file.svg" alt="">
+            </a>
+            <p>Part-1</p>
+          </div>
+           <div class="file" file_name="Part_(2)">
+            <a href="#">
+              <img src="file.svg" alt="">
+            </a>
+            <p>Part-2</p>
+          </div>
+           <div class="file" file_name="Part_(3)">
+            <a href="#">
+              <img src="file.svg" alt="">
+            </a>
+            <p>Part-3</p>
+          </div>
+           <div class="file" file_name="Part_(4)">
+            <a href="#">
+              <img src="file.svg" alt="">
+            </a>
+            <p>Part-4</p>
+          </div>
+        </div>
+        <!--dir 2 start-->
+        
+      <div class="dir js">
+        <img src="file.svg" alt="">
+        <p>JavaScript</p>
+      </div>
+    
+    <div class="files js">
+          <div class="file">
+            <a href="">
+              <img src="file.svg" alt="">
+            </a>
+            <p>part1</p>
+          </div>
+           <div class="file">
+            <a href="">
+              <img src="file.svg" alt="">
+            </a>
+            <p>part1</p>
+          </div>
+           <div class="file" file_name="readme">
+            <a href="#">
+              <img src="file.svg" alt="">
+            </a>
+            <p>part1</p>
+          </div>
+    </div>
+  </div>--
+    <!--dir 2 end-->
+      
+    <div class="add">
+      <input type="file" id="file" />
+      <div id="plus">
+        <img src="plus.svg" alt="">
+      </div>
+    </div>
+  </section>
+  <section id="page">
+    <div class="container">
+      <article id="content">
+        
+      </article>
+    </div>
+  </section>
+  
+<section id="viwer">
+  <div>
+    <div class="editor">
+      <h1>Markdown Viewer</h1>
+      <textarea id="text_input" placeholder="Write your markdown here..."></textarea>
+    </div>
+    <div class="output-div" id="output">
+    
+    </div>
+  </div>
+</section>
+  <!--javascript-->
+  <script src="library/highlight.min.js"></script>
+  <script src="app.js"></script>
+  <script src="library/marked.min.js" ></script>
+</body>
+
+</html>
