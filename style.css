@@ -306,11 +306,12 @@ header ul li a:hover:before {
 }
 /* Blockquotes */
 #content blockquote {
-  border-left: 4px solid #d1d9e0;
-  padding: 0 16px;
+  border-left: 3px solid #2FFF00;
+  padding: 16px;
   margin: 16px 0;
   color: #656d76;
-  background-color: #f6f8fa;
+  border-radius: 10px;
+  background: #30313D;
 }
 
     /* Links */
